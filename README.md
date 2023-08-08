@@ -1,5 +1,5 @@
 # Comparing prioritized cell types from GWAS using single nucleus-RNA or -ATAC sequencing (in Alzheimer individuals and healthy controls)
-## Minor Research Project for the Master in Bioinformatics and System Biology (VU Amsterdam)
+## Minor Research Project - Master Bioinformatics and Systems Biology, Vrije Universiteit Amsterdam
 
 
 The main aim of the project is develop a pipeline to link scRNAseq and scATACseq data to GWAS summary statistics.
