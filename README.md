@@ -4,7 +4,7 @@
 
 The main aim of the project is develop a pipeline to link scRNAseq and scATACseq data to GWAS summary statistics.
 
-The input are two count matrices: Gene Expression matrix for scRNAseq and Peak intensity matrix for scATACseq from [Morabito et al.2021](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174367). Features in the scRNAseq datasets are genes, in scATACseq are cis-candidate regulatory elements (cCREs). 
+The input are two count matrices: Gene Expression matrix for scRNAseq and Peak intensity matrix for scATACseq from [Morabito et al.2021](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174367). Features in the scRNAseq datasets are genes, in scATACseq are cis-candidate regulatory elements (cCREs). The Alzheimer Disease GWAS used is from [Wightman et al. 2021](https://github.com/bmanzato/minor-master-project-bioinf}{github.com/bmanzato/minor-master-project-bioinf).
 
 ```preprocessing_rna.py``` and ```preprocessing_atac.py``` filter the intial datasets, divides Cases (AD) and Controls and averages the count matrix by grouping cells belonging to the same cell type.
 
